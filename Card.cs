@@ -42,11 +42,11 @@ namespace CardGame {
         }
         public Card (int CardNumber) {
             val = (CardNumber % 13) + 1;
-            if (CardNumber < 14) {
+            if (CardNumber < 13) {
                 suit = "Spades";
-            } else if (CardNumber < 27) {
+            } else if (CardNumber < 26) {
                 suit = "Diamonds";
-            } else if (CardNumber < 40) {
+            } else if (CardNumber < 39) {
                 suit = "Clubs";
             } else {
                 suit = "Hearts";
