@@ -7,7 +7,7 @@ namespace CardGame {
         List<object> hand = new List<object> ();
         public int money;
         public void draw (Deck deckName) {
-            hand.Add (deckName.deal());
+            hand.Add (deckName.deal ());
         }
         public object discard (int cardIndex) {
             if (hand [cardIndex] != null) {
