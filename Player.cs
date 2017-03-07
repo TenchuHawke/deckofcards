@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-
 namespace CardGame {
     public class Player {
         public string playerName;
@@ -20,7 +19,6 @@ namespace CardGame {
         public Player (string name = "Unnamed") {
             playerName = name;
             money = 1000;
-
         }
     }
 }
